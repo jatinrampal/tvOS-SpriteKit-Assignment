@@ -14,6 +14,18 @@
 		9174A7E421AE742F0037506C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A7E321AE742F0037506C /* GameViewController.swift */; };
 		9174A7E721AE742F0037506C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9174A7E521AE742F0037506C /* Main.storyboard */; };
 		9174A7E921AE74300037506C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9174A7E821AE74300037506C /* Assets.xcassets */; };
+		9174A7F921AF06350037506C /* bowser.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174A7F721AF06350037506C /* bowser.png */; };
+		9174A7FA21AF06350037506C /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174A7F821AF06350037506C /* mario.png */; };
+		9174A7FC21AF0BB80037506C /* mariobg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9174A7FB21AF0BB80037506C /* mariobg.jpg */; };
+		9174A7FE21AF4A5E0037506C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A7FD21AF4A5E0037506C /* TableViewController.swift */; };
+		9174A80021AF4A910037506C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A7FF21AF4A910037506C /* DetailsViewController.swift */; };
+		9174A80221AF4ABC0037506C /* myDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A80121AF4ABC0037506C /* myDataTableViewCell.swift */; };
+		9174A80421AF4AF00037506C /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A80321AF4AF00037506C /* GetData.swift */; };
+		9174A80621AF53A10037506C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174A80521AF53A10037506C /* HomeViewController.swift */; };
+		91E192E021B039E400B41FDA /* collissionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91E192DE21B039E400B41FDA /* collissionParticle.sks */; };
+		91E192E121B039E400B41FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E192DF21B039E400B41FDA /* Assets.xcassets */; };
+		91E192E521B049A800B41FDA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E192E421B049A700B41FDA /* background.png */; };
+		91E192E721B0749C00B41FDA /* super-mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E192E621B0749B00B41FDA /* super-mario.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,18 @@
 		9174A7E621AE742F0037506C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9174A7E821AE74300037506C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9174A7EA21AE74300037506C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9174A7F721AF06350037506C /* bowser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowser.png; sourceTree = "<group>"; };
+		9174A7F821AF06350037506C /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
+		9174A7FB21AF0BB80037506C /* mariobg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariobg.jpg; sourceTree = "<group>"; };
+		9174A7FD21AF4A5E0037506C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9174A7FF21AF4A910037506C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9174A80121AF4ABC0037506C /* myDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDataTableViewCell.swift; sourceTree = "<group>"; };
+		9174A80321AF4AF00037506C /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		9174A80521AF53A10037506C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		91E192DE21B039E400B41FDA /* collissionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = collissionParticle.sks; sourceTree = "<group>"; };
+		91E192DF21B039E400B41FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E192E421B049A700B41FDA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		91E192E621B0749B00B41FDA /* super-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "super-mario.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +82,68 @@
 		9174A7DA21AE742F0037506C /* tvOS-SpriteKit-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				9174A7F621AF05620037506C /* Scenes */,
+				9174A7F521AF05550037506C /* Storyboards */,
+				9174A7F421AF054A0037506C /* Classes */,
+				9174A7F321AF05370037506C /* View Controllers */,
+				9174A7F221AF052D0037506C /* Images */,
 				9174A7DB21AE742F0037506C /* AppDelegate.swift */,
-				9174A7DD21AE742F0037506C /* GameScene.sks */,
-				9174A7DF21AE742F0037506C /* Actions.sks */,
-				9174A7E121AE742F0037506C /* GameScene.swift */,
-				9174A7E321AE742F0037506C /* GameViewController.swift */,
-				9174A7E521AE742F0037506C /* Main.storyboard */,
 				9174A7E821AE74300037506C /* Assets.xcassets */,
 				9174A7EA21AE74300037506C /* Info.plist */,
 			);
 			path = "tvOS-SpriteKit-Assignment";
+			sourceTree = "<group>";
+		};
+		9174A7F221AF052D0037506C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91E192E621B0749B00B41FDA /* super-mario.png */,
+				91E192E421B049A700B41FDA /* background.png */,
+				9174A7FB21AF0BB80037506C /* mariobg.jpg */,
+				9174A7F721AF06350037506C /* bowser.png */,
+				9174A7F821AF06350037506C /* mario.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9174A7F321AF05370037506C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9174A7E321AE742F0037506C /* GameViewController.swift */,
+				9174A7FD21AF4A5E0037506C /* TableViewController.swift */,
+				9174A7FF21AF4A910037506C /* DetailsViewController.swift */,
+				9174A80521AF53A10037506C /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9174A7F421AF054A0037506C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9174A80121AF4ABC0037506C /* myDataTableViewCell.swift */,
+				9174A80321AF4AF00037506C /* GetData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9174A7F521AF05550037506C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9174A7E521AE742F0037506C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9174A7F621AF05620037506C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9174A7DD21AE742F0037506C /* GameScene.sks */,
+				9174A7DF21AE742F0037506C /* Actions.sks */,
+				9174A7E121AE742F0037506C /* GameScene.swift */,
+				91E192DE21B039E400B41FDA /* collissionParticle.sks */,
+				91E192DF21B039E400B41FDA /* Assets.xcassets */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +205,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9174A7E721AE742F0037506C /* Main.storyboard in Resources */,
+				9174A7FA21AF06350037506C /* mario.png in Resources */,
+				9174A7F921AF06350037506C /* bowser.png in Resources */,
+				9174A7FC21AF0BB80037506C /* mariobg.jpg in Resources */,
+				91E192E121B039E400B41FDA /* Assets.xcassets in Resources */,
+				91E192E721B0749C00B41FDA /* super-mario.png in Resources */,
 				9174A7DE21AE742F0037506C /* GameScene.sks in Resources */,
+				91E192E021B039E400B41FDA /* collissionParticle.sks in Resources */,
 				9174A7E921AE74300037506C /* Assets.xcassets in Resources */,
+				91E192E521B049A800B41FDA /* background.png in Resources */,
 				9174A7E021AE742F0037506C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +228,11 @@
 				9174A7E221AE742F0037506C /* GameScene.swift in Sources */,
 				9174A7E421AE742F0037506C /* GameViewController.swift in Sources */,
 				9174A7DC21AE742F0037506C /* AppDelegate.swift in Sources */,
+				9174A80621AF53A10037506C /* HomeViewController.swift in Sources */,
+				9174A80221AF4ABC0037506C /* myDataTableViewCell.swift in Sources */,
+				9174A7FE21AF4A5E0037506C /* TableViewController.swift in Sources */,
+				9174A80421AF4AF00037506C /* GetData.swift in Sources */,
+				9174A80021AF4A910037506C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
